@@ -1,0 +1,161 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none; 
+	text-decoration:none;	
+}
+
+
+body{
+
+    background-image: url(../img/fondo.jpg);
+    background-attachment:fixed;
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+header {
+	width:1000px;
+	height: 100px;
+	position:relative;
+	margin: 0 auto;
+	background:url("../img/cabecera.jpg")	
+}
+
+#logo {	
+	width: 500px;
+	height:100px;
+	position:absolute;
+	z-index:2000;
+}	
+
+.logo{
+
+	border-radius: 5px;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 48px;
+	text-align: center;
+	top: 5px;
+	color:#FFF;
+}	
+
+section {
+	top: 1px;
+	width: 1000px;
+	height:800px;
+	position:relative;
+	margin: 0 auto;
+
+}
+
+#caja1 {
+	position:absolute;
+	width:303px;
+	height:502px;
+	background:url(../img/caja1.jpg);
+	left:20px;
+	top:20px;
+	border-radius: 10px;	
+}
+
+#frase {
+
+	text-align: center;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 20px;
+	color:#000;
+	font-style: oblique;
+	margin-top: 150px;
+	
+	
+}
+
+#caja2 {
+	position:absolute;
+	width:636px;
+	height:238px;
+	background:url(../img/caja2.jpg);
+	right:20px;
+	top:20px;	
+	border-radius: 10px;
+}
+
+	
+#frase2{
+	
+	text-align: center;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 20px;
+	color:#000000;
+	font-style: oblique;
+	margin-top: 80px;
+	
+}
+
+#caja3 {
+	position:absolute;
+	width:303px;
+	height:238px;
+	background: url(../img/caja3.jpg);
+	bottom:20px;	
+	left:20px;
+	border-radius: 10px;
+	}
+
+#caja4 {
+	position:absolute;
+	width:636px;
+	height:502px;
+	background: url(../img/caja4.jpg);
+	bottom:20px;
+	right:20px;	
+	border-radius: 10px;
+}
+	
+#redes {	
+	width: 226px;
+	height:50px;
+	top:250px;
+	position:fixed;
+	z-index:2000;
+}
+
+#facebook {
+	width: 50px;
+	height: 50px;
+}
+
+#instagram {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+
+}
+
+#whatsapp {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;	
+}
+
+footer {
+	width: 1000px;
+	height: 60px;
+	margin-top: 3px;
+	margin-left: 155px;
+	
+	
+}
+
+#pie{
+
+	margin-left: 20px;
+	margin-top: 1px;
+	border-radius: 10px;
+}
+		
+			
